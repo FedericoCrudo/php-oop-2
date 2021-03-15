@@ -1,0 +1,8 @@
+Table User
+id  numero-int(Primary key-unique)
+nome string varchar(30)-not null
+nome string varchar(30)-not null
+password  string varchar(70)-not null
+data 	data((YYYY-MM--dd)
+post numero-smallint
+
