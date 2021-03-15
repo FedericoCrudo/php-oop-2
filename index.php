@@ -38,7 +38,16 @@
                 <div class="box-user">
                     <?php 
                     foreach($user as $key => $info){?>
-                        <span><?php echo $key.': ' .$info ?></span>
+                        <span>
+                            <?php 
+                            if(!empty($info)){
+                                echo $key .': '.$info;
+                            }
+                        
+                            ?>
+                    
+                    
+                        </span>
                         <?php } ?>    
                 </div>
             <?php } ?>  
