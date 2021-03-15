@@ -37,8 +37,8 @@
             foreach($raccolta as $user){ ?>
                 <div class="box-user">
                     <?php 
-                    foreach($user as $info){?>
-                        <span><?php echo $info ?></span>
+                    foreach($user as $key => $info){?>
+                        <span><?php echo $key.': ' .$info ?></span>
                         <?php } ?>    
                 </div>
             <?php } ?>  
